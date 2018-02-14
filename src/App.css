@@ -1,0 +1,43 @@
+@import "lib/animate.css";
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  src: url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+}
+
+.notes {
+  padding: 2vw;
+  text-align: center;
+}
+
+.notes h1 {
+  font-family: 'Share Tech Mono', monospace;
+  color: teal;
+}
+
+
+#title {
+  animation: 0.7s zoomIn ease;
+}
+
+#description {
+  opacity: 0;
+}
+
+#button {
+  opacity: 0;
+  padding: 1vw;
+}
+
+#button Button {
+  margin-top: 1.5vw;
+}
+
+#hr {
+  height: 1px;
+  border: 0;
+  background: -webkit-gradient(
+          linear, 0 0, 100% 0, from(white), to(white),
+          color-stop(50%, teal));
+}
+
